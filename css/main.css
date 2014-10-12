@@ -10,12 +10,14 @@ body {
 	background-attachment: fixed;	
 }
 
-a:link, a:visited {
-	font-color: #0000AA;	
+body a:link, body a:visited {
+	font-color: #0000AA;
+	text-decoration: none;
 }
 
-a:hover, input:focus {
+body a:hover, body input:focus {
 	font-color: #0000EE;
+	text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,16 +57,10 @@ header {
 	background-color: #FA5A0F;
 	border-bottom: 5px;
 	border-bottom-color: #EA4A00;
-	font-color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 header p {
-	font-size: 120%;
-	font-color: #EEEEEE;
-	margin: 0;
-}
-
-body main header h1 {
 	font-size: 120%;
 	font-color: #EEEEEE;
 	margin: 0;
@@ -77,6 +73,9 @@ body main header h1 {
 #menu {
 	padding: 1em;
 	background-color: rgba(207, 205, 140, 0.5);
+}
+
+#menu dt {
 	font-weight: 400;
 }
 
